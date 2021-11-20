@@ -1,0 +1,19 @@
+basket is an aggregation of command line
+
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Reference){
+			Reference tmp = (Reference) obj;
+			return this.ref.getRef().equals(tmp.ref.getRef());
+			
+		}else{
+			return false;
+		}
+	}
+	
+	
+	
+	json : Gson
+	XML : DOM (create) or SAX (analyze)
+	
+	serialization
